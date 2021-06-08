@@ -13,8 +13,12 @@ worksheet = sh.sheet1
 #user = [""]
 #update cell
 #Change cell color
-worksheet.format("L2",{"backgroundColor": 
+worksheet.format("D3:l3",{"backgroundColor": 
 {"red": 0.0,
 "green":1.0,
 "blue":0.0}})
+
+#worksheet.format("",{"backgroundColor": 
+#"green":1.0,
+#"blue":0.0}})
 #print(res)#
